@@ -1,5 +1,6 @@
 import Header from "./components/Header.jsx";
-import Main from "./components/Main.jsx";
+import MainContent from "./components/MainContent.jsx";
+import MainCarousel from "./components/MainCarousel.jsx";
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     return (
         <>
             <Header />
-            <Main />
+            <MainContent />
+            <MainCarousel />
         </>
     )
 }

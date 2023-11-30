@@ -1,10 +1,10 @@
-import Header from '../components/Header';
+import CustomCard from "../components/CustomCard.jsx";
 
 function Skills() {
     return (
         <>
             <div>
-                Skills
+                <h1>Skills</h1>
             </div>
         </>
     )

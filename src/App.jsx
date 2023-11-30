@@ -13,7 +13,7 @@ import Aspirations from './pages/Aspirations';
 function App() {
     return (
         <Router>
-            <>
+            <div className="">
                 <Header />
                 <Routes>
                     <Route path="/" element={<MainContent />} />
@@ -24,7 +24,7 @@ function App() {
                 </Routes>
                 <MainCarousel />
                 <MainFooter />
-            </>
+            </div>
         </Router>
     );
 }

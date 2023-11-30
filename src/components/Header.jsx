@@ -17,9 +17,6 @@ function Header() {
                 <Navbar.Link href="/">
                     Home
                 </Navbar.Link>
-                <Navbar.Link  href="#">
-                    Projects
-                </Navbar.Link>
                 <Navbar.Link href="#">
                     Contact
                 </Navbar.Link>

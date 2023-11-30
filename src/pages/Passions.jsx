@@ -1,12 +1,22 @@
-
+import CustomCard from "../components/CustomCard.jsx";
 
 function Passions() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold">Passions</h1>
-      <p className="text-2xl">Coming soon...</p>
+    <div className="flex items-center justify-center h-screen space-x-8">
+        <CustomCard
+            imgSrc="/passions/sports.jpg"
+            title="Sports"
+            alt="Sports"
+            description="Hello World"
+        />
+        <CustomCard
+            imgSrc="/passions/anime.jpg"
+            alt="Anime"
+            title="Anime"
+            description="Hello World"
+        />
     </div>
-  )
+  );
 }
 
 export default Passions;

@@ -1,21 +1,24 @@
 import PropTypes from 'prop-types';
-import { Card } from 'flowbite-react';
 
 function CustomCard(props) {
     return (
-        <Card className="max-w-sm" imgSrc={props.imgSrc} horizontal>
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                {props.title}
-            </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-                {props.description}
-            </p>
-        </Card>
+        <div className="transition-transform duration-150 ease-in-out max-w-sm rounded-xl overflow-hidden shadow-lg">
+            <img className="w-full " src={`./public/cards${props.imgSrc}`} alt={props.alt} />
+            <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">
+                    {props.title}
+                </div>
+                <p className="text-gray-700 text-base">
+                    {props.description}
+                </p>
+            </div>
+        </div>
     );
 }
 
 CustomCard.propTypes = {
     imgSrc: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
 };

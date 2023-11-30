@@ -1,10 +1,15 @@
+import Header from "./components/Header.jsx";
+import Main from "./components/Main.jsx";
 
 
 function App() {
 
-  return (
-    <h1>App</h1>
-  )
+    return (
+        <>
+            <Header />
+            <Main />
+        </>
+    )
 }
 
 export default App

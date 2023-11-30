@@ -3,7 +3,9 @@ import Header from '../components/Header';
 function Skills() {
     return (
         <>
-            <Header />
+            <div>
+                Skills
+            </div>
         </>
     )
 }

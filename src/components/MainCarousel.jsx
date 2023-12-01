@@ -16,14 +16,11 @@ function MainCarousel() {
                     <Link to="/Skills" onClick={handleCarouselClick}>
                         <img src="./public/carousel/1.jpeg" alt="1" />
                     </Link>
-                    <Link to="/LifeAsAStudent" onClick={handleCarouselClick}>
-                        <img src="./public/carousel/2.jpg" alt="2" />
+                    <Link to="/Aspirations" onClick={handleCarouselClick}>
+                        <img src="./public/carousel/4.jpg" alt="4" />
                     </Link>
                     <Link to="/Passions" onClick={handleCarouselClick}>
                         <img src="./public/carousel/3.jpeg" alt="3" />
-                    </Link>
-                    <Link to="/Aspirations" onClick={handleCarouselClick}>
-                        <img src="./public/carousel/4.jpg" alt="4" />
                     </Link>
                 </Carousel>
             </div>

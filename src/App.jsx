@@ -6,11 +6,9 @@ import MainCarousel from './components/MainCarousel';
 import MainFooter from './components/MainFooter';
 
 import Skills from './pages/Skills';
-import LifeAsAStudent from './pages/LifeAsAStudent';
 import Passions from './pages/Passions';
 import Aspirations from './pages/Aspirations';
 
-import { FaGithub } from "react-icons/fa";
 function App() {
     return (
         <Router>
@@ -19,7 +17,6 @@ function App() {
                 <Routes>
                     <Route path="/" element={<MainContent />} />
                     <Route path="/skills" element={<Skills />} />
-                    <Route path="/life-as-a-student" element={<LifeAsAStudent />} />
                     <Route path="/passions" element={<Passions />} />
                     <Route path="/aspirations" element={<Aspirations />} />
                 </Routes>

@@ -5,20 +5,24 @@ function MainCarousel() {
     const location = useLocation();
     const isHomePage = location.pathname === '/';
 
+    const handleCarouselClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         isHomePage && (
             <div data-aos="zoom-in" className="h-56 sm:h-64 xl:h-80 2xl:h-96 flex items-center justify-center">
                 <Carousel slideInterval={6000} className="w-3/4 sm:w-2/3 lg:w-1/2">
-                    <Link to="/Skills">
+                    <Link to="/Skills" onClick={handleCarouselClick}>
                         <img src="./public/carousel/1.jpeg" alt="1" />
                     </Link>
-                    <Link to="/LifeAsAStudent">
+                    <Link to="/LifeAsAStudent" onClick={handleCarouselClick}>
                         <img src="./public/carousel/2.jpg" alt="2" />
                     </Link>
-                    <Link to="/Passions">
+                    <Link to="/Passions" onClick={handleCarouselClick}>
                         <img src="./public/carousel/3.jpeg" alt="3" />
                     </Link>
-                    <Link to="/Aspirations">
+                    <Link to="/Aspirations" onClick={handleCarouselClick}>
                         <img src="./public/carousel/4.jpg" alt="4" />
                     </Link>
                 </Carousel>

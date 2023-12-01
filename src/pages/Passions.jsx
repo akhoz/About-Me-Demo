@@ -62,7 +62,7 @@ function Passions() {
                     newfound passion for coding."
                 />
                 <CustomCard
-                    imgSrc="/passions/hobbies.jpg"
+                    imgSrc="/passions/gym.jpg"
                     alt="Hobbies"
                     title="Hobbies"
                     description="In recent times, my hobbies encompass everything mentioned earlier.

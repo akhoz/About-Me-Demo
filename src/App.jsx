@@ -24,20 +24,6 @@ function App() {
                     <Route path="/aspirations" element={<Aspirations />} />
                 </Routes>
                 <MainCarousel />
-                <div className="my-20 text-center">
-                    <div className="flex items-center justify-center">
-                        <p className="text-xl font-bold">
-                            If you want to check my projects, take a look at my{" "}
-                            <a href="https://github.com/akhoz" target="_blank" rel="noopener noreferrer">
-                                GitHub profile
-                            </a>
-                            .
-                        </p>
-                        <a href="https://github.com/akhoz" target="_blank" rel="noopener noreferrer" className="ml-2">
-                            <FaGithub className="text-3xl animate-pulse" />
-                        </a>
-                    </div>
-                </div>
                 <MainFooter />
             </div>
         </Router>

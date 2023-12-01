@@ -90,7 +90,15 @@ function Skills() {
                     title="Extra tools"
                     description="In addition to programming languages, I've become acquainted with several useful tools, such as Git and GitHub.
                     I've utilized services like Firebase. Furthermore, I have hands-on experience and a basic understanding of Linux operating systems.
-                    Currently, alongside Windows, I manage the EndeavourOS distribution."
+                    Currently, alongside Windows, I manage the EndeavourOS distribution. Additionally, I've used LaTeX for text document composition."
+                />
+                <CustomCard
+                    imgSrc="/skills/personal.webp"
+                    alt="Personal skills"
+                    title="Personal skills"
+                    description="Beyond the technical realm, I possess skills in mathematics, an area I find both intuitive and have honed through
+                    university courses. Additionally, I consider myself proficient in soft skills, excelling in communication with colleagues and
+                    peers. Fluent in both English and Spanish, I've recently undertaken learning Portuguese as well."
                 />
             </div>
         </>

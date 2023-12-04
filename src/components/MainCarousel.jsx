@@ -11,7 +11,7 @@ function MainCarousel() {
 
     return (
         isHomePage && (
-            <div data-aos="zoom-in" className="h-56 sm:h-64 xl:h-80 2xl:h-96 flex items-center justify-center">
+            <div data-aos="zoom-in" className="h-56 sm:h-64 xl:h-80 2xl:h-96 flex items-center justify-center mb-20">
                 <Carousel slideInterval={6000} className="w-3/4 sm:w-2/3 lg:w-1/2">
                     <Link to="/Skills" onClick={handleCarouselClick}>
                         <img src="./public/carousel/1.jpeg" alt="1" />

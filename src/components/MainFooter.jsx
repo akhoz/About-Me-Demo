@@ -6,7 +6,7 @@ function MainFooter() {
     };
 
     return (
-        <Footer container style={footerStyle} className="mt-20">
+        <Footer container style={footerStyle} className="">
             <Footer.Copyright href="https://github.com/akhoz" by="Adrián Villalobos™" year={2023} />
         </Footer>
     );

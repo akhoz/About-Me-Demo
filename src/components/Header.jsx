@@ -1,7 +1,12 @@
 import { Navbar } from 'flowbite-react';
 import { HiChip } from "react-icons/hi";
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
+
+    const handleHeaderClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     return (
 
@@ -14,15 +19,21 @@ function Header() {
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
-                <Navbar.Link href="/">
-                    Home
-                </Navbar.Link>
-                <Navbar.Link href="#">
-                    Contact
-                </Navbar.Link>
-                <Navbar.Link href="#">
-                    Extra
-                </Navbar.Link>
+                <Link to="" onClick={handleHeaderClick}>
+                    <Navbar.Link>
+                        Home
+                    </Navbar.Link>
+                </Link>
+                <Link to="/Contact" onClick={handleHeaderClick}>
+                    <Navbar.Link>
+                        Contact
+                    </Navbar.Link>
+                </Link>
+                <Link to="/Extra" onClick={handleHeaderClick}>
+                    <Navbar.Link>
+                        Extra
+                    </Navbar.Link>
+                </Link>
             </Navbar.Collapse>
         </Navbar>
     );

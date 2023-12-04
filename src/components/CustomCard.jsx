@@ -8,7 +8,7 @@ function CustomCard(props) {
                 <div className="font-bold text-xl mb-2">
                     {props.title}
                 </div>
-                <p className="text-gray-700 text-base">
+                <p className="text-gray-700 text-base italic">
                     {props.description}
                 </p>
             </div>

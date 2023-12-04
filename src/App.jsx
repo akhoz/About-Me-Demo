@@ -8,6 +8,8 @@ import MainFooter from './components/MainFooter';
 import Skills from './pages/Skills';
 import Passions from './pages/Passions';
 import Aspirations from './pages/Aspirations';
+import Contact from "./pages/Contact.jsx";
+import Extra from "./pages/Extra.jsx";
 
 function App() {
     return (
@@ -19,6 +21,8 @@ function App() {
                     <Route path="/skills" element={<Skills />} />
                     <Route path="/passions" element={<Passions />} />
                     <Route path="/aspirations" element={<Aspirations />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/extra" element={<Extra />} />
                 </Routes>
                 <MainCarousel />
                 <MainFooter />

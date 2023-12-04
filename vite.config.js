@@ -6,5 +6,5 @@ export default defineConfig({
     plugins: [
       react(),
     ],
-    base: "https://akhoz.github.io/About-Me/",
+    base: "https://akhoz.github.io/About-Me/dist/",
 })
